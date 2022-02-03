@@ -1,0 +1,82 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-left: 260px;
+  padding-right: 260px;
+  margin-top: 25px;
+  margin-bottom: 55px;
+}
+
+.home {
+  background-color: #df5245;
+  border: none;
+  border-radius: 17px;
+  height: 45px;
+  color: white;
+  font-weight: 550;
+  font-size: 15px;
+  width: 120px;
+  box-shadow: 1px 7px 50px -7px#db4437;
+}
+.team {
+  background-color: white;
+  color: rgb(122, 122, 122);
+  font-weight: 550;
+  font-size: 15px;
+  border: none;
+  border-radius: 15px;
+  height: 45px;
+  width: 120px;
+  box-shadow: 1px 7px 50px -7px rgb(179, 179, 179);
+  transition: 0.8s;
+}
+.team:hover {
+  background-color: #4285f4;
+  color: white;
+  box-shadow: 1px 7px 50px -7px #4285f4;
+}
+.events {
+  background-color: white;
+  color: rgb(122, 122, 122);
+  font-weight: 550;
+  font-size: 15px;
+  border: none;
+  border-radius: 17px;
+  height: 45px;
+  width: 120px;
+  box-shadow: 1px 7px 50px -7px rgb(179, 179, 179);
+  transition: 0.8s;
+}
+.events:hover {
+  background-color: #0f9d58;
+  color: white;
+  box-shadow: 1px 7px 50px -7px #0f9d58;
+}
+.discord {
+  background-color: white;
+  color: rgb(122, 122, 122);
+  font-weight: bold;
+  font-size: 15px;
+  border: none;
+  border-radius: 17px;
+  height: 45px;
+  width: 120px;
+  box-shadow: 1px 7px 50px -7px rgb(179, 179, 179);
+  transition: 0.8s;
+}
+.discord:hover {
+  background-color: #f4b400;
+  color: white;
+  box-shadow: 1px 7px 50px -7px #f4b400;
+}
+.logo_d {
+  background-color: white;
+  border-radius: 45px;
+  box-shadow: 1px 7px 50px -7px rgb(179, 179, 179);
+  width: 70px;
+  height: 70px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}

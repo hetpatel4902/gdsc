@@ -1,0 +1,55 @@
+.about {
+  padding: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: 40px;
+  border-radius: 20px;
+  background-color: rgb(248, 247, 247);
+  display: flex;
+}
+
+.detail {
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.college_name {
+  font-size: 14px;
+  font-weight: 550;
+  color: rgb(122, 122, 122);
+  margin-left: 52px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.gdsc_sform {
+  margin-left: 10px;
+  font-size: 22px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(88, 88, 88);
+  margin-bottom: 7px;
+  font-weight: 500;
+}
+
+.gdsc_detail {
+  margin-top: 40px;
+  font-size: 16px;
+}
+
+.left_component {
+  flex: 1;
+  padding: 45px;
+}
+
+.right_component {
+  flex: 1;
+  text-align: center;
+  padding: 50px;
+  background-color: rgb(248, 247, 247);
+  /* box-shadow: -1px 22px 50px -1px rgb(0 0 0 / 0.2); */
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  border-radius: 15px;
+  transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+}
