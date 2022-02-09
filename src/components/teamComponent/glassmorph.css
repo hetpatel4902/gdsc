@@ -1,0 +1,104 @@
+.name {
+  justify-content: center;
+  display: flex;
+  font-weight: 400;
+  font-family: serif;
+  margin-top: 7px;
+  font-size: 18px;
+
+  /* background-color: aqua; */
+}
+.content {
+  justify-content: center;
+  display: flex;
+  font-weight: 400;
+  font-family: serif;
+  font-size: 15px;
+  margin: 0px;
+}
+.symbols {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.instagram1 {
+  /* margin: 5px; */
+  background-color: #db4437;
+  height: 35px;
+  width: 35px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 17.5px;
+  box-shadow: 1px 7px 50px -7px rgb(179, 179, 179);
+}
+.instagram1:hover {
+  background-color: #db4437;
+  color: white;
+  box-shadow: 1px 7px 50px -7px #db4437;
+}
+.facebook1 {
+  /* margin: 10px; */
+  height: 35px;
+  width: 35px;
+  background-color: #4285f4;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 17.5px;
+  box-shadow: 1px 7px 50px -7px rgb(179, 179, 179);
+}
+.facebook1:hover {
+  background-color: #4285f4;
+  color: white;
+  box-shadow: 1px 7px 50px -7px #4285f4;
+}
+.whatsapp1 {
+  /* margin: 10px; */
+  background-color: #0f9d58;
+  height: 35px;
+  width: 35px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 17.5px;
+  box-shadow: 1px 7px 50px -7px rgb(179, 179, 179);
+}
+.whatsapp1:hover {
+  background-color: #0f9d58;
+  color: white;
+  box-shadow: 1px 7px 50px -7px #0f9d58;
+}
+.linkedin1 {
+  /* margin: 10px; */
+  background-color: #f4b400;
+  height: 35px;
+  width: 35px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 17.5px;
+  box-shadow: 1px 7px 50px -7px rgb(179, 179, 179);
+}
+.linkedin1:hover {
+  background-color: #f4b400;
+  color: white;
+  box-shadow: 1px 7px 50px -7px #f4b400;
+}
+.box {
+  box-shadow: 1px 7px 50px -7px rgb(214, 214, 214);
+  background-color: #ffffff;
+  width: 19%;
+  height: 325px;
+  border-radius: 10px;
+  padding: 30px;
+  border-width: 2px;
+  border-style: solid;
+  border-top-color: #db4437;
+  border-right-color: #4285f4;
+  border-bottom-color: #0f9d58;
+  border-left-color: #f4b400;
+}
+.image {
+  box-shadow: 1px 7px 50px -7px rgb(214, 214, 214);
+}
